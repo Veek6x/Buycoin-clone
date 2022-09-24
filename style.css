@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  padding-top: 50px;
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif !important;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav {
+  background-color: #fafbfd;
+}
+nav a:hover {
+  cursor: pointer !important;
+  color: #9b68fa !important;
+}
+.icon {
+  width: 8rem;
+}
+li .btn {
+  background-color: #9b68fa;
+  color: white;
+}
+.nav-btn {
+  background-color: #b38cfc;
+  border: none;
+  color: white;
+  padding: 10px 10px 10px;
+  border-radius: 8px;
+}
+.primary-links {
+  font-family: "Poppins", sans-serif !important;
+  /* font-size: 1.6rem !important; */
+  font-weight: 500;
+}
+.dropdown-menu {
+  background-color: #fafbfd;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.lt-spacing {
+  letter-spacing: -1.8;
+  line-height: 0.99;
+  word-spacing: 4px;
+}
+.primary-links {
+  background-color: #fafbfd;
+  box-shadow: 0 10px 10px -10px #9b68fa;
+}
+.navbar-nav {
+  padding: 50px 0 20px;
+}
+button.navbar-toggler {
+  border: none !important;
+  outline: 0 !important;
+}
+
+header {
+  background-color: #ffffff;
+  padding-top: 50px;
+}
+.header-btn {
+  position: relative;
+  background-color: white;
+  box-shadow: inset 0 0 0 0 #b38cfc;
+  color: #b38cfc !important;
+  border: 3px solid #b38cfc !important;
+  transition: 0.5s ease-in-out;
+}
+.header-btn::before {
+  content: " ";
+  background-color: #b38cfc;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+}
+.header-btn:hover {
+  box-shadow: inset 600px 0 0 0 #b38cfc;
+  color: white !important;
+  cursor: pointer;
+}
+.header-text {
+  font-family: "Lato", sans-serif !important;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 15rem;
+}
+header p {
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 80%;
+  margin: 15px auto 40px;
+  opacity: 80%;
+}
+.phone-img-con {
+  width: 40%;
+  z-index: 1;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.phone-img-1 {
+  transform: rotate(5deg);
+  z-index: 9999;
+  right: -40px;
+}
+.phone-img-2 {
+  transform: rotate(360deg);
+  width: 85%;
+  top: 20px;
+  right: 50px;
+}
+.future-of-money {
+  padding: 130px 0;
+}
+.fom-text > p {
+  color: #fa7a43;
+}
+.fom-icon svg {
+  z-index: 1;
+}
+.fom-icon::before {
+  content: "";
+  border-radius: 100%;
+  background-color: #9b68fa;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  /* z-index: 2; */
+}
+.fom-card-con > .card {
+  box-shadow: 0 10px 20px -10px #9b68fa;
+  font-family: "Lato", sans-serif !important;
+}
+.get-started {
+  padding: 160px 0 50px;
+}
+.get-started ul::before {
+  content: "";
+  width: 2px;
+  background-color: rgba(179, 140, 252, 0.3);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.get-started-steps span {
+  color: #9b68fa;
+  font-family: "Lato", sans-serif !important;
+  height: min-content;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 7px 0;
+}
+.last-span {
+  height: auto !important;
+  margin-bottom: 0;
+}
+.get-started-txt {
+  max-width: 75%;
+  padding: 10px 0;
+}
+.icon-wrapper {
+  width: 50%;
+  top: 20px;
+  right: 12px;
+  position: absolute;
+}
+.eth {
+  width: 30%;
+}
+.bitcoin,
+.eth {
+  -webkit-animation: floatBtc 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate-reverse both;
+  animation: floatBtc 6s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate-reverse both;
+}
+@keyframes floatBtc {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-90px);
+    transform: translateY(-90px);
+  }
+}
+.litecoin {
+  -webkit-animation: floatLtcc 4.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    infinite alternate-reverse both;
+  animation: floatLtc 4.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    alternate-reverse both;
+}
+@keyframes floatLtc {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+}
+.usdt {
+  -webkit-animation: floatusdt 4.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s
+    infinite alternate-reverse both;
+  animation: floatLtc 4.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s infinite
+    alternate-reverse both;
+}
+@keyframes floatusdt {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-600px);
+    transform: translateY(-600px);
+  }
+}
+.try-buycoin {
+  padding: 100px 0;
+}
+.try-buycoin-icon {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: white;
+  height: min-content;
+  margin-right: 50px;
+}
+.try-buycoin-txt {
+  max-width: 70%;
+}
+.try-buycoin-txt h4 {
+  font-size: 1.2rem;
+}
+.try-buycoin-txt p {
+  font-size: 0.95rem;
+}
+.try-buycoin-btn-con {
+  justify-content: space-evenly;
+}
+.try-buycoin-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white !important;
+  color: black !important;
+  font-weight: 700 !important;
+  border: 2px solid #b38cfc !important;
+  box-shadow: inset 0 0 0 0 black;
+  transition: 0.5s ease-in-out;
+}
+.try-buycoin-btn:hover {
+  box-shadow: inset 600px 0 0 0 black;
+  color: white !important;
+  border: 3px solid black !important;
+  cursor: pointer;
+}
+.try-buycoin-pro {
+  padding: 100px 0 100px;
+  background-color: #0b011c;
+}
+.download-app-details {
+  background-color: #fafafa;
+  border-radius: 50px;
+  padding: 30px 10px 10px;
+}
+.ash-btn {
+  background-color: #3c3449;
+}
+.other-products {
+  padding: 100px 0;
+}
+.other-products-card {
+  box-shadow: 1px 15px 23px -2px rgba(155, 104, 250, 0.56);
+}
+.other-products-card img {
+  width: 35%;
+  align-self: end;
+}
+.card-arrow {
+  transform: rotate(-40deg);
+  color: #9b68fa;
+}
+.visit-site-p:hover {
+  color: #9b68fa !important;
+}
+.visit-site-p:hover .card-arrow {
+  transform: rotate(0deg) !important;
+}
+.download-app-callout {
+  padding: 100px 0;
+}
+
+.try-buycoin-btn:hover * .flip-img{
+  display: none;
+  -webkit-animation: flip-img 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate-reverse both !important;
+  animation: flip-img 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) alternate-reverse both !important;
+}
+@keyframes flip-img {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+}
+footer {
+  padding: 100px 0 20px;
+}
+footer a:hover {
+  cursor: pointer !important;
+  color: #9b68fa !important;
+}
+.footer-links-con {
+  margin: 10px;
+}
+.footer-links {
+  font-size: 0.85rem;
+}
+.attribution {
+  font-size: 0.65rem;
+}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .try-buycoin-btn {
+    padding: 10px 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 3.5rem;
+    max-width: 20rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  .phone-img-1 {
+    width: 80%;
+    right: -20px;
+  }
+  .phone-img-2 {
+    width: 65%;
+    top: 40px;
+    right: 80px;
+  }
+  .fom-card-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .fom-card-con > .card {
+    margin: 0 10px 48px;
+    padding-bottom: 50px !important;
+  }
+  .future-of-money {
+    padding: 130px 0 80px;
+  }
+  .get-started-con,
+  .try-buycoin-con,
+  .try-buycoin-pro-con,
+  .other-products-card-con,
+  .download-app-details {
+    display: flex;
+  }
+  .get-started-img-con,
+  .try-buycoin-img-con,
+  .try-buycoin-pro-img-con {
+    align-self: center;
+    width: 90% !important;
+    margin-right: 50px;
+  }
+  .get-started-img-con > img,
+  .try-buycoin-img-con > img,
+  .try-buycoin-pro-img-con > img {
+    width: 100% !important;
+  }
+
+  .try-buycoin-con {
+    flex-direction: row-reverse;
+  }
+  .try-buycoin-img-con {
+    margin-right: 0 !important;
+    margin-left: 50px;
+  }
+  .try-buycoin-btn {
+    padding: 10px 20px;
+  }
+  .other-products-card-con > div:nth-child(1) {
+    margin-bottom: 0 !important;
+    min-width: 328.94px;
+  }
+  .other-products-card {
+    margin: 0 10px;
+  }
+  .download-app-text {
+    align-self: center;
+  }
+  .download-app-img-con {
+    position: relative;
+    /* bottom: 130px; */
+    /* width: 100% !important; */
+  }
+  .download-app-img-con img {
+    width: 100% !important;
+    transform: rotate(10deg);
+  }
+  .download-app-details {
+    padding: 0 20px;
+    margin: 0 30px;
+  }
+
+  footer > div:nth-child(1) {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .footer-links-con {
+    max-width: 25%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    padding: 0 !important;
+  }
+  .primary-links {
+    background-color: #fafbfd;
+    box-shadow: none;
+  }
+  .nav-item {
+    align-self: center !important;
+    margin: 0 7px !important;
+  }
+  .dropdown-menu {
+    border: 0.2px solid #a77ff28d !important;
+    box-shadow: 0 10px 10px -10px #9b68fa;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .header-text {
+    margin-top: 50px !important;
+  }
+  header p {
+    max-width: 60%;
+  }
+  .phone-img-con {
+    top: 65%;
+  }
+  .phone-img-1 {
+    right: -10px;
+  }
+  .phone-img-2 {
+    right: 150px;
+  }
+  .fom-card-con > .card {
+    box-shadow: 0px 200px 172px -68px rgba(250, 250, 250, 0.75) inset;
+  }
+  .fom-card-con > .card:hover {
+    box-shadow: 1px 8px 17px -2px rgba(155, 104, 250, 0.9);
+  }
+  .other-products-card:hover {
+    background-color: #9b68fa7a !important;
+  }
+}
+@media screen and (min-width: 1030px) and (max-width: 1370px) {
+  .get-started-img-con,
+  .try-buycoin-img-con,
+  .try-buycoin-pro-img-con {
+    align-self: center;
+    width: 70% !important;
+    margin-right: 50px;
+  }
+  .get-started-img-con > img,
+  .try-buycoin-img-con > img,
+  .try-buycoin-pro-img-con > img {
+    width: 80% !important;
+  }
+}
+@media screen and (min-width: 1370px) and (max-width: 1605px) {
+  .navbar-nav {
+    padding: 10px 0 !important;
+  }
+  .header-btn {
+    padding: 20px 70px !important;
+  }
+  .try-buycoin-btn {
+    padding: 15px 70px;
+  }
+  .phone-img-1 {
+    width: 75%;
+    right: -20px;
+  }
+  .phone-img-2 {
+    transform: rotate(355deg);
+    width: 65%;
+    top: 50px;
+    right: 120px;
+    background-color: transparent;
+  }
+  .phone-img-2:hover {
+    z-index: 9999;
+    width: 70%;
+    transform: rotate(365deg);
+    transition: 0.3s;
+  }
+  .phone-img-1:hover {
+    z-index: 9999;
+    transform: rotate(4deg);
+    transition: 0.3s;
+  }
+  .get-started-img-con,
+  .try-buycoin-img-con,
+  .try-buycoin-pro-img-con {
+    align-self: center;
+    width: 50% !important;
+    margin-right: 50px;
+  }
+  .get-started-img-con > img,
+  .try-buycoin-img-con > img,
+  .try-buycoin-pro-img-con > img {
+    width: 80% !important;
+  }
+  .download-app-img-con {
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+  }
+  .download-app-img-con img {
+    width: 100% !important;
+    transform: rotate(10deg);
+    z-index: -1;
+  }
+  .download-app-text {
+    max-width: 70%;
+  }
+  .download-app-text h2 {
+    font-size: 3rem;
+    font-weight: 800 !important;
+  }
+  .download-app-con {
+    padding: 0 50px !important;
+  }
+  .download-app-details {
+    max-height: 60%;
+  }
+  .download-app-callout {
+    z-index: 1;
+  }
+  .other-products {
+    padding-bottom: 250px;
+  }
+  .other-products-card-con {
+    padding: 0 200px;
+  }
+}
