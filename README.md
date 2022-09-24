@@ -1,4 +1,4 @@
-# BuyCoins Africs
+# BuyCoins Africa
 
 This is a cloned homepage of the [Buy Coins Africa](hhttps://buycoins.africa/) official website.
 
