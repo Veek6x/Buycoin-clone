@@ -1,4 +1,4 @@
-# BuyCoins Africs
+# BuyCoins Africa
 
 This is a cloned homepage of the [Buy Coins Africa](hhttps://buycoins.africa/) official website.
 
@@ -33,13 +33,19 @@ This is a cloned homepage of the [Buy Coins Africa](hhttps://buycoins.africa/) o
 
 I learnt a whole bunch of new stuffs while working on this. Implented some new HTML tags which i learnt about, especially the figure, picture and source tag which i never really understood or used before til now
 
- ```html
+```html
 <figure>
   <picture>
-    <source/>
+    <source />
   </picture>
 </figure>
- ```
+```
+
+This line enough of code saved me from deleting the whole project and starting from scratch😅. Thanks to [@Ibimina](https://twitter.com/IbiminaaH?s=20&t=fxU9Xdm5C5J5tFqcFMvhgg)
+
+```css
+overflow-x: hidden;
+```
 
 ### Useful resources
 
@@ -51,4 +57,4 @@ I learnt a whole bunch of new stuffs while working on this. Implented some new H
 
 ## Closing
 
-- Thank for taking your time to read. This is my twitter account [@VeekTheeGeek](https://twitter.com/VeekTheeGeek). I'm a Front-end web developer. Open to collaborations, Jobs, Gigs, Challenges anything at all🤲.
+- Thank for taking your time to read. This is my twitter account [@VeekTheeGeek](https://twitter.com/VeekTheeGeek). I'm a Front-end web developer. Open to collaborations, Jobs, Gigs, Challenges anything at all🤲. Shout-out to my hero [@Ibimina](https://twitter.com/IbiminaaH?s=20&t=fxU9Xdm5C5J5tFqcFMvhgg)
